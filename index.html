@@ -17,21 +17,26 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja Bem-vindo(a) novamente, faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
 
-                <div class="campo">
+                    <div class="campo">
+                        <img width="20" height="20" src="https://img.icons8.com/emoji/50/bust-in-silhouette.png" alt="bust-in-silhouette"/>
+                        <label for="ilogin"></label>
+                        <input type="email" name="login" id="ilogin" placeholder="seu email">
 
-                    <label for="ilogin">login</label>
-                    <input type="email" name="login" id="ilogin" placeholder="seu email">
+                    </div>
 
-                </div>
+                    <div class="campo">
+                        <img width="20" height="20" src="https://img.icons8.com/material-rounded/50/key--v1.png" alt="key--v1"/>
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha">
 
-                <div class="campo">
+                    </div>
 
-                    <label for="isenha">senha</label>
-                    <input type="password" name="senha" id="isenha" placeholder="sua senha">
-
-                </div>
+                    <input type="submit" value="Enviar">
+                    <a href="esqueci minha senha " class="botao"> esqueci a senha
+                        <img width="15" height="15" src="https://img.icons8.com/material-rounded/50/new-post.png" alt="new-post"/>
+                    </a>
 
                 </form>
 
